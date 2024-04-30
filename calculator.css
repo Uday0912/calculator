@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.calculator {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: #E6E6FA;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.bg-container {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Mi1rcHhrOW5nay5qcGc.jpg;");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 600;
+}
